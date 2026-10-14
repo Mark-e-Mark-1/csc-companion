@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0e4f4a" />
+    <meta
+      name="description"
+      content="Reference tool for Children's Specialty Care therapists and interns. No patient information is stored or sent."
+    />
+    <meta name="robots" content="noindex" />
+    <title>CSC Clinical Companion</title>
+    <link rel="icon" href="%BASE_URL%favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="%BASE_URL%icons/icon-192.png" />
+    <script>
+      try {
+        var prefs = JSON.parse(localStorage.getItem("csc-ui-prefs") || "{}")
+        if (prefs.textSize === "large") document.documentElement.setAttribute("data-text", "large")
+      } catch (e) {
+        /* Text size is the only preference. Ignore anything unreadable. */
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

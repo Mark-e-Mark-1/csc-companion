@@ -1,0 +1,187 @@
+{
+  "intro": "These cases are invented for teaching. They are not real patients and not a competency test. Nothing you click is saved. Talk the feedback through with your supervisor.",
+  "items": [
+    {
+      "id": "anxiety-only",
+      "title": "Worry before school",
+      "vignette": "Jordan is 10 and was referred by the pediatrician for worry and stomachaches on school mornings. There is no chronic medical diagnosis, no developmental difference, and no request for ABA. Jordan is keeping up in class. The family tried one community counselor, did not like the fit, and wants Children's Specialty Care because the hospital feels safer. The stomachaches resolve once the school day starts. Primary care found no medical cause.",
+      "questions": [
+        {
+          "id": "fit",
+          "prompt": "How does this referral sit against the scope of service?",
+          "choices": [
+            {
+              "id": "pain",
+              "label": "Likely eligible. Morning stomachaches are a chronic pain disorder, so Path 1 is met.",
+              "fit": false,
+              "feedback": "A stomachache that tracks school and has no chronic pain diagnosis is not the scope's chronic pain disorder. Path 1 is for diagnoses such as a chronic pain disorder with an evidence base for behavioral treatment, named as such. This story is anxiety, which is Condition A only."
+            },
+            {
+              "id": "no",
+              "label": "Not eligible. Anxiety without a developmental difference, a chronic medical condition, or age under 6 does not meet Path 2, and community mental health is the right level.",
+              "fit": true,
+              "feedback": "This matches the scope. Condition A is present. Condition B is not. Path 1 is not. The exclusion for needs that traditional community mental health can meet also fits. A bad first counselor is a reason to try again in the community, not a reason to open CSC. Do not submit a BH23 referral to CSC from these facts."
+            },
+            {
+              "id": "hospital",
+              "label": "Likely eligible, because any referral that starts inside the hospital system belongs to CSC.",
+              "fit": false,
+              "feedback": "Where the family hopes to be seen is not a criterion. The scope is about the child's age, the diagnosis, and whether specialty care is actually required."
+            }
+          ]
+        },
+        {
+          "id": "younger",
+          "prompt": "What changes if Jordan is 4 years old and the rest of the story is the same?",
+          "choices": [
+            {
+              "id": "nothing",
+              "label": "Nothing. Anxiety is anxiety at any age, so the answer stays not eligible.",
+              "fit": false,
+              "feedback": "Age under 6 is one way to meet Condition B. A 4-year-old with a real anxiety disorder can meet Path 2 even without autism or a chronic illness. You still ask whether traditional community care can meet the need. Many community clinics are a poor fit for a preschooler, which is why the scope names very young age."
+            },
+            {
+              "id": "b",
+              "label": "Condition B can now be met by age. Eligibility depends on whether this preschooler's anxiety truly needs specialty care rather than a community provider who works with young children.",
+              "fit": true,
+              "feedback": "Yes. Under 6 meets Condition B when Condition A is present. It is not an automatic yes: if a community clinician who treats young children can do the work, the exclusion still applies. If not, CSC is in range, and a pediatrician would use the BH23 Counseling box and answer Yes to the supplemental question."
+            },
+            {
+              "id": "aba",
+              "label": "Now the referral should be routed to high-hour ABA, because the child is under 6.",
+              "fit": false,
+              "feedback": "Young age is not an ABA referral. High-hour ABA is an excluded service. Under 6 is an inclusion route for specialty therapy at an ordinary dose, usually with a large caregiver role."
+            }
+          ]
+        }
+      ],
+      "takeaway": "Read Path 1 narrowly. Morning stomachaches are not automatically a chronic pain disorder. Then read Condition B carefully: under 6 changes the math, and a learning disability or a preference for the hospital does not.",
+      "related": [
+        { "label": "Open the screener", "to": "/screener" },
+        { "label": "Developmental lens, under 6", "to": "/development/under-6/typical" }
+      ]
+    },
+    {
+      "id": "bh23-routing",
+      "title": "Which box on BH23",
+      "vignette": "Luis is 9 and has encopresis with constipation, followed in GI. He also has ADHD. The family is not asking for ABA. GI is ready to refer for behavioral treatment of the encopresis alongside the bowel plan. A year ago the pediatrician also mentioned counseling. You are helping the referring clinician place the BH23 referral today, and the person entering it is the GI provider.",
+      "questions": [
+        {
+          "id": "box",
+          "prompt": "Which BH23 path fits this referral?",
+          "choices": [
+            {
+              "id": "counseling",
+              "label": "Counseling box, and answer Yes to the question about age or developmental complexity.",
+              "fit": false,
+              "feedback": "That is the path for providers who are not in a specialty clinic. GI is a specialty clinic. The person entering this referral is the GI provider, so the specialty box is the one the scope names."
+            },
+            {
+              "id": "specialty",
+              "label": "Check the \"MB Specialty referral to CSC\" box.",
+              "fit": true,
+              "feedback": "Yes. Specialty Care Clinic providers refer through BH23 and check the MB Specialty referral to CSC box. Encopresis is a Path 1 diagnosis, so the referral can fit even before you sort out ADHD. ADHD alone would not have been enough without a developmental difference, a chronic medical condition, or age under 6."
+            },
+            {
+              "id": "both",
+              "label": "Check both the specialty box and the Counseling box so the referral is not lost.",
+              "fit": false,
+              "feedback": "The scope names one path based on who is referring. Checking both is not the instruction and can send the referral to the wrong queue. One box: MB Specialty referral to CSC."
+            }
+          ]
+        },
+        {
+          "id": "pediatrician",
+          "prompt": "Same child, same encopresis, but the pediatrician is the person entering the referral. GI is involved and is not the one submitting it.",
+          "choices": [
+            {
+              "id": "still-specialty",
+              "label": "Still the specialty box, because a specialist follows him.",
+              "fit": false,
+              "feedback": "Routing follows who submits the referral, not who else is on the team. The pediatrician is not a specialty clinic provider."
+            },
+            {
+              "id": "counseling-yes",
+              "label": "Counseling box, and answer Yes to \"Is this child 0-5 years or 6-17 with developmental complexity.\"",
+              "fit": true,
+              "feedback": "Yes. All other providers use the Counseling box and answer Yes to that supplemental question. The question's wording is about age and developmental complexity. The scope still says to answer Yes, including when the child qualifies on Path 1 — here, encopresis — without a developmental difference. Do not talk yourself out of the Yes because Luis is 9 and the qualifying piece is the bowel diagnosis rather than autism."
+            },
+            {
+              "id": "no-refer",
+              "label": "Do not refer. Encopresis plus ADHD can be handled in community mental health.",
+              "fit": false,
+              "feedback": "Encopresis is on the scope's Path 1 list of medical diagnoses with evidence-based behavioral treatment. It is not 'just counseling' that any community clinic is assumed to provide. The bowel plan stays with GI or pediatrics. CSC's work sits beside that plan."
+            }
+          ]
+        }
+      ],
+      "takeaway": "Path 1 and the BH23 box answer different questions. Encopresis can make the child eligible. The box depends on who is typing the referral. When that person is not in a specialty clinic, answer Yes to the supplemental question even if the wording fits a developmental story better than a bowel story.",
+      "related": [
+        { "label": "Open the screener", "to": "/screener" },
+        { "label": "Encopresis card", "to": "/conditions/encopresis" },
+        { "label": "Additional topics training", "to": "/training/additional" }
+      ]
+    },
+    {
+      "id": "afternoon-anger",
+      "title": "Angry after lunch",
+      "vignette": "Sam is 14, has type 1 diabetes, and is followed in Endocrine. Caregivers asked for help with anger and not listening in the late afternoon. A teacher wonders about ADHD. Language and learning are otherwise typical for age. No one has looked at the glucose record from those afternoons. Sam uses a CGM and sometimes silences alarms at school. The family wants a behavior plan they can start this week.",
+      "questions": [
+        {
+          "id": "first",
+          "prompt": "What is the right first step?",
+          "choices": [
+            {
+              "id": "adhd",
+              "label": "Start an ADHD evaluation protocol. The teacher has already identified the problem.",
+              "fit": false,
+              "feedback": "The teacher may be seeing something real, and ADHD can coexist with diabetes. It is the wrong first move while late-day irritability has not been set next to the glucose record. Stimulant decisions and attention labels can wait a step."
+            },
+            {
+              "id": "glucose",
+              "label": "Ask what the glucose was around the irritable episodes. Hold hypoglycemia, hyperglycemia, sleep loss from alarms, and medication effects beside an ADHD question, and loop in Endocrine.",
+              "fit": true,
+              "feedback": "Yes. Irritability versus hypo- or hyperglycemia is a standing differential in diabetes. A behavior plan aimed at 'not listening' can punish a low. Ask Endocrine what pattern they see and what they want the family to do when the number is out of range. Keep ADHD on the list. Do not crown it on day one. The recorded training on the ADHD differential sits in Additional topics; the illness content sits in Chronic Illness."
+            },
+            {
+              "id": "teen",
+              "label": "Decline the referral. Anger in the afternoon is ordinary adolescence.",
+              "fit": false,
+              "feedback": "Adolescence is part of the formulation and is not a reason to wave off a diabetes-linked behavior change. Endocrine referred a real regimen problem. CSC's job is to sort medical mimics from skills, family conflict, and possible ADHD — not to declare teens moody and close the chart."
+            }
+          ]
+        },
+        {
+          "id": "adapt",
+          "prompt": "Sam's skills are typical for 14. Which way of working fits the developmental lens?",
+          "choices": [
+            {
+              "id": "lecture",
+              "label": "Give a detailed lecture on complications so the afternoon anger has consequences Sam can respect.",
+              "fit": false,
+              "feedback": "Fear of future complications is a poor lever and is not yours to invent. Typical adolescents can think abstractly and still decide from shame, friends, and fatigue. A lecture also skips the glucose question."
+            },
+            {
+              "id": "coach",
+              "label": "Give Sam part of the session alone. Write one concrete stuck point — late-day checks or boluses — and move the caregivers from nagging toward a check-in they agreed to.",
+              "fit": true,
+              "feedback": "That matches a typical adolescent adaptation: privacy that is real, one stuck point, and a caregiver who coaches instead of doing the task or delivering a speech. Concreteness still matters when Sam is irritable or low. Look at the Developmental lens for the adolescent, Typical pace, if you want the longer version."
+            },
+            {
+              "id": "parent-only",
+              "label": "See only the caregivers. At 14, the patient's report will be unreliable.",
+              "fit": false,
+              "feedback": "Caregivers are essential and they are not the whole client. A typical 14-year-old can say what happens at school when alarms go off, if you offer time without an audience. Excluding Sam will look like the same surveillance Sam is already fighting."
+            }
+          ]
+        }
+      ],
+      "takeaway": "In diabetes, mood and 'not listening' are glucose questions until the record says otherwise. Then adapt the hour to the developmental level you actually have: here, a typical adolescent, not a generic child and not a small adult.",
+      "related": [
+        { "label": "Type 1 diabetes card", "to": "/conditions/type-1-diabetes" },
+        { "label": "Adolescent lens, typical pace", "to": "/development/adolescent/typical" },
+        { "label": "Chronic illness training", "to": "/training/chronic-illness" }
+      ]
+    }
+  ]
+}

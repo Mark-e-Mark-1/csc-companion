@@ -1,0 +1,45 @@
+{
+  "name": "CSC Clinical Companion",
+  "org": "Children's Specialty Care",
+  "banner": "Reference tool only. Do not enter any patient information.",
+  "bannerDetail": "Not a medical record and not a referral submission. Nothing you select is saved or sent. Refreshing the page clears the screener and the intake checklist.",
+  "footer": "Draft clinical content, pending medical team review. For Master's-level therapists and interns in Children's Specialty Care.",
+  "modules": [
+    {
+      "to": "/screener",
+      "index": "01",
+      "title": "Eligibility and referral",
+      "text": "Walk the scope of service and leave with likely eligible, not eligible, or needs a consult — plus the BH23 box that matches who is referring."
+    },
+    {
+      "to": "/intake",
+      "index": "02",
+      "title": "Intake guide",
+      "text": "Choose the referral source, the condition, and the developmental level. Get a printable list of questions, differentials, and how to adapt the work."
+    },
+    {
+      "to": "/development",
+      "index": "03",
+      "title": "Developmental lens",
+      "text": "Read cognition, language, perspective taking, and social-emotional development by stage, then switch Ahead, Typical, or Behind."
+    },
+    {
+      "to": "/conditions",
+      "index": "04",
+      "title": "Condition cards",
+      "text": "Therapy considerations for the illnesses CSC sits beside. Diabetes, cystic fibrosis, and pediatric cancer are fully drafted. The rest are stubs."
+    },
+    {
+      "to": "/training",
+      "index": "05",
+      "title": "Training map",
+      "text": "Find the recorded training that already covers a topic. Hours are filled in. Recording links are waiting to be added."
+    },
+    {
+      "to": "/practice",
+      "index": "06",
+      "title": "Practice cases",
+      "text": "Three fictional vignettes for interns. Pick a response, read the feedback, and take it to supervision. Nothing is scored or stored."
+    }
+  ]
+}

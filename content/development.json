@@ -1,0 +1,252 @@
+{
+  "intro": "Use this when you are about to change the way you talk, the size of the task, or how much of the hour belongs to the caregiver. Pick the stage that matches the child's age, then set the pace to where skills actually are. Ahead means gifted or highly capable. Behind means the child needs more support than same-age peers. The scope's age rule 'under 6' covers birth through 5. This lens splits that span in two, because therapy with an infant is not therapy with a 4-year-old.",
+  "functionalOverview": "Some behaviors make sense when you ask what they do for the child, not what they say about character. The usual functions are getting attention or connection, escaping a demand or a sensation, getting an item or activity, and meeting a sensory need directly. Watch what happens just before and just after. Teach a replacement the child can already almost do. CSC does not provide high-hour ABA. This is a way to think during an ordinary therapy hour, not a prescription for a many-hour program.",
+  "paces": [
+    {
+      "id": "ahead",
+      "label": "Ahead",
+      "hint": "Gifted or highly capable"
+    },
+    {
+      "id": "typical",
+      "label": "Typical",
+      "hint": "Skills near age expectations"
+    },
+    {
+      "id": "behind",
+      "label": "Behind",
+      "hint": "Needs more support than same-age peers"
+    }
+  ],
+  "domains": [
+    { "id": "cognition", "label": "Cognition" },
+    { "id": "language", "label": "Language" },
+    { "id": "perspective", "label": "Perspective taking" },
+    { "id": "socialEmotional", "label": "Social and emotional" }
+  ],
+  "adaptations": [
+    { "id": "concreteness", "label": "Concreteness" },
+    { "id": "visuals", "label": "Visuals" },
+    { "id": "caregiver", "label": "Caregiver role" },
+    { "id": "taskBreakdown", "label": "Task breakdown" },
+    { "id": "functionalBehavior", "label": "Functional view of behavior" }
+  ],
+  "stages": [
+    {
+      "id": "infant-toddler",
+      "title": "Infant and toddler",
+      "ages": "Birth to about 2 years",
+      "summary": "The work is co-regulation, routines, and reading behavior as communication. Explanations do not land yet.",
+      "intakeQuestions": [
+        "What does a hard stretch of the day actually look like, from the minutes before it starts?",
+        "How does the child show hunger, pain, fatigue, and overload — and how quickly does an adult respond?",
+        "Who is with the child for most of the day, and what does that person already do that helps?"
+      ],
+      "domains": {
+        "typical": {
+          "cognition": "Learns by looking, mouthing, dropping, and doing a thing again. Lives in the present. Later and tomorrow do not organize behavior yet.",
+          "language": "Moves from cries and sounds to gestures and first words, then short combinations. The behavior is the sentence.",
+          "perspective": "Shares attention on a face or a toy. Does not hold your reasons in mind or take your point of view.",
+          "socialEmotional": "Regulation happens in the relationship. A steady adult body is the intervention. Separation, hunger, pain, and fatigue look like behavior problems if you are not watching the body."
+        },
+        "ahead": {
+          "cognition": "May be unusually alert, fast to map a routine, or early with words or motor problem-solving. Thinking speed does not create emotional age. Do not add a curriculum because the child seems bright.",
+          "language": "Words may arrive early and still fail under distress. A toddler who talks well can have no words left during a medical procedure or a separation.",
+          "perspective": "May notice adult emotions quickly and try to please or clown. That is not the same as understanding why an adult is scared or angry.",
+          "socialEmotional": "Intensity is common: big joy, big frustration, a long time to come down. Giftedness at this age is often uneven. Sleep, sensory load, and caregiver exhaustion belong in the formulation."
+        },
+        "behind": {
+          "cognition": "Responses may be slower, harder to elicit, or tightly tied to one sensory channel. Use the channel that works. Do not interpret a delay as ignoring you.",
+          "language": "Fewer sounds, gestures, or words than peers. Treat any consistent signal — a look, a reach, a sound — as communication worth answering.",
+          "perspective": "Joint attention may be fragile. Get into the child's focus instead of insisting they enter yours. Screens and busy rooms make this worse.",
+          "socialEmotional": "Harder to console does not mean the relationship is failing. Rule out hearing, vision, pain, reflux, and seizures with the medical team before you build a behavior story. Partner with early intervention; do not replace it."
+        }
+      },
+      "adaptations": {
+        "typical": {
+          "concreteness": "Do the thing. Do not explain it. Narrate with a few words while it happens: shoes on, then outside.",
+          "visuals": "Real objects beat pictures. One picture can preview a single next step, such as a diaper, a chair, or bye.",
+          "caregiver": "The caregiver is in the work as much as the child. Coach in the room. You cannot hand a toddler a coping skill to use alone.",
+          "taskBreakdown": "One action, then stop. Wait longer than feels natural before you help.",
+          "functionalBehavior": "Watch what the adult does in the seconds after a cry, a hit, or a drop. Ask what the child gets, or gets away from. Teach a simpler signal the child can almost do, such as a reach or a sound you answer every time."
+        },
+        "ahead": {
+          "concreteness": "Follow the child's interest, then return to one concrete step. Early language is not a reason to lecture.",
+          "visuals": "A two-step picture card can work if the child already uses symbols. Keep it to the next thing, not the whole day.",
+          "caregiver": "Caregivers may need permission to stop stimulating a very alert child. Recovery time is part of the plan. Intensity in the child often lands as exhaustion in the adult.",
+          "taskBreakdown": "The child may race ahead and then fall apart. Break the task anyway. Speed is not stamina.",
+          "functionalBehavior": "A bright toddler can still use a behavior because it works. Do not assume they should know better. Name the function in plain words for the caregiver and change what happens right after."
+        },
+        "behind": {
+          "concreteness": "Fewer words. More doing. Hand the object. Touch the location. Repeat the same short phrase every time.",
+          "visuals": "Objects first. If pictures are used, one picture, high contrast, and check that vision and hearing have been looked at.",
+          "caregiver": "Coach one caregiver skill per visit. Ask what early intervention or therapies are already teaching so you do not contradict them.",
+          "taskBreakdown": "Shrink the step until the child succeeds with a small amount of help, then fade the help. Success has to be visible to the caregiver.",
+          "functionalBehavior": "Count a signal as a behavior worth reinforcing: a look, a lean, a sound. The replacement has to be physically possible. If the child cannot yet point, do not make pointing the plan."
+        }
+      }
+    },
+    {
+      "id": "under-6",
+      "title": "Under 6",
+      "ages": "About 3 to 5 years",
+      "summary": "Play is the main language. Thinking is concrete, one thing at a time, and easily pulled into magic or guilt. Caregivers still do the regulating.",
+      "intakeQuestions": [
+        "What does the child do in play when no one is directing it?",
+        "Which feelings have words, and which feelings only show up in the body or in hitting?",
+        "What does the caregiver do in the first minute of a meltdown, and what happens to the meltdown?"
+      ],
+      "domains": {
+        "typical": {
+          "cognition": "Thinks in the here and now. One idea at a time. Cause and effect is shaky, so medical events easily become 'I did something bad.' Rules are literal.",
+          "language": "Sentences are longer, but abstract words — worry, forever, fair — are unreliable. Under stress, language drops back to gestures and no.",
+          "perspective": "Around 4 and 5, a simple guess about someone else's feeling becomes possible and then disappears when the child is scared or ashamed. Do not count on it during a procedure or a scolding.",
+          "socialEmotional": "Feelings are big and fast and often show in play, sleep, eating, and the body. The caregiver is still the regulator. Peer play is emerging and falls apart without an adult nearby."
+        },
+        "ahead": {
+          "cognition": "May ask adult questions, remember detailed explanations, and spot inconsistencies. Magical guilt can be more elaborate, not less. A precise explanation can create a new fear.",
+          "language": "Vocabulary can look years older than the child's ability to use it while upset. Do not conduct the session at the level of their best sentence.",
+          "perspective": "May talk about other people's feelings in a grown-up way and still be unable to act on that talk. Insight is not a skill.",
+          "socialEmotional": "Perfectionism, intense interests, and existential questions ('Will you die?') show up early. Peers may be confusing because the child wants both baby play and adult talk. Emotional recovery is often the lagging piece."
+        },
+        "behind": {
+          "cognition": "Stay with one concrete idea. Multi-step 'if then' plans will not hold. Check understanding by having the child show you, not by asking 'okay?'",
+          "language": "Shorter utterances, more scripts, or more behavior than words. Match your sentences to theirs and add one word, not a paragraph.",
+          "perspective": "Do not require the child to imagine how a parent or sibling feels. That demand often produces shame or a memorized answer.",
+          "socialEmotional": "Regulation skills may look like a younger child. Use play, sensory supports, and the caregiver's body. Keep toys and examples dignified for a preschooler, not an infant, unless the child seeks infant play."
+        }
+      },
+      "adaptations": {
+        "typical": {
+          "concreteness": "One idea. Tie it to something they can see or do in the room. Skip metaphors, or explain the metaphor as if it were new.",
+          "visuals": "A first-then card, a feelings picture with few faces, or the actual object. Draw the plan together if they like to draw.",
+          "caregiver": "Teach the caregiver the phrase and the routine. The child will not carry it home alone. Spend part of the hour coaching the adult while the child plays.",
+          "taskBreakdown": "Two steps at most: first this, then that. Practice the calm version before you practice the hard version.",
+          "functionalBehavior": "Keep an ABC on one behavior for a week, not a diary of everything. Guess the function with the caregiver. The replacement might be a word, a picture, or a break chair. Practice it when everyone is calm."
+        },
+        "ahead": {
+          "concreteness": "Answer the real question briefly and accurately, then land on one thing to do. Do not pile on mechanisms. Offer the interesting fact after the plan is in place, not instead of it.",
+          "visuals": "This child may reject 'baby charts.' Make the visual look like a tool a big kid would use: a short list, a map of the visit, a drawing they invent.",
+          "caregiver": "Help the caregiver stop over-explaining. The adult's job is to shrink the moment, not to win the debate. Permission to be simple is often the intervention.",
+          "taskBreakdown": "They may insist they already understand. Ask them to teach the plan back in three steps or less. Understanding the whole hospital is not the task.",
+          "functionalBehavior": "A gifted preschooler can describe a function and still repeat the behavior because it works. Keep the consequence change small and consistent. Do not turn the functional analysis into a conversation they perform for praise."
+        },
+        "behind": {
+          "concreteness": "Show it. Do it together. Use the same words every time. Abstract feeling names can wait.",
+          "visuals": "Photos of their own people and places beat generic cartoons. One picture at a time.",
+          "caregiver": "Most of the hour is caregiver coaching. The child joins for a short, successful practice. Ask what speech, OT, or early intervention is already using.",
+          "taskBreakdown": "Cut the skill into the smallest piece that can be praised today. Going to the clinic door may be the whole goal.",
+          "functionalBehavior": "Match the replacement to communication they actually have. If words fail, a gesture or a picture is the plan. Look for pain, constipation, hunger, and sensory overload before you call it a function — medical discomfort masquerades as behavior at this age."
+        }
+      }
+    },
+    {
+      "id": "school-age",
+      "title": "School age",
+      "ages": "About 6 to 11 years",
+      "summary": "Rules, fairness, and being good at things matter. They can sequence and compare, and they still need concrete examples when the topic is illness, shame, or fear.",
+      "intakeQuestions": [
+        "What is happening at school — learning, friends, attendance, and what adults do when the day goes badly?",
+        "What does the child say the problem is, in their words, separate from the caregiver's story?",
+        "Where does the child still need an adult to do the skill with them, even if they look independent?"
+      ],
+      "domains": {
+        "typical": {
+          "cognition": "Can hold a sequence, compare two ideas, and use rules. Abstract words still need a concrete example. Under stress, thinking drops back to one thing at a time.",
+          "language": "Can talk about feelings with support and still agrees just to end the conversation. Ask them to say it back. Jokes and slang appear. Shame shuts language down.",
+          "perspective": "Can imagine a simple other point of view and struggles with mixed feelings ('Mom is kind and Mom is too much'). Fairness is concrete: same rules, same turns.",
+          "socialEmotional": "Self-esteem ties to doing things well and to friends. Illness, soiling, tics, or devices can become a secret. They watch whether adults are disappointed."
+        },
+        "ahead": {
+          "cognition": "May grasp explanations meant for older students, including odds and mechanisms. Insight can outrun emotional control. A detailed understanding of an illness can feed anxiety rather than settle it.",
+          "language": "Talks like an older child and may still need feeling words modeled. Watch for debating as a way to avoid a feeling or a demand.",
+          "perspective": "Can take several perspectives in conversation and then miss them entirely in a conflict with a parent or a sibling. Do not treat verbal empathy as mastery.",
+          "socialEmotional": "Perfectionism, boredom, and existential worry show up beside immature recovery. Peers may find the child intense. Being 'the smart one' becomes a problem when the body or the behavior does not cooperate."
+        },
+        "behind": {
+          "cognition": "Use strategies you would use with a younger child, and keep the topics age-respectful. One idea per sentence. Reading level and listening level may not match. Check the school plan so you are not reteaching a skill someone else owns.",
+          "language": "Shorter sentences, more concrete words, more time to answer. A quick 'yes' is not understanding. Devices, speech-generating tools, or pictures may be the real language — use them in session.",
+          "perspective": "Do not ask them to imagine how the caregiver feels as a way to change behavior. That request is often too hard and lands as shame. Teach a visible rule instead.",
+          "socialEmotional": "Friends and dignity matter even when skills are younger. Do not use babyish materials. Name what the child is good at. Behavioral overflow is more likely when the demand is past their actual skill."
+        }
+      },
+      "adaptations": {
+        "typical": {
+          "concreteness": "Pair every abstract idea with a specific example from school or home. 'Be brave' is not a plan. 'Tell the nurse you need a minute, then count ten bricks' is a plan.",
+          "visuals": "A short written sequence, a calendar of the medical week, a 1-to-5 scale they help design. Let them keep a copy.",
+          "caregiver": "The child can do part of the session alone. The caregiver still changes the after-effect at home. Agree on one adult response and write it down before they leave.",
+          "taskBreakdown": "Three steps is plenty. Practice the middle step, which is usually the one that fails. Check it the next visit before you add anything.",
+          "functionalBehavior": "The child can help guess the function if you keep the choices concrete: were you trying to get help, get out of it, or get something? Track one behavior. Change what adults do afterward, and teach a sentence or a break card they can use at school."
+        },
+        "ahead": {
+          "concreteness": "Offer the real explanation they are asking for, in accurate words, then reduce it to one action. Do not use complications of the illness as a threat to motivate behavior.",
+          "visuals": "Skip cutesy charts if they feel insulting. A one-page plan, a graph they help interpret, or a checklist they designed will be used. Visuals are still useful when anxiety is high and words flood.",
+          "caregiver": "Coach the adult to stop the debate. Agree on a time-limited check-in rather than ongoing surveillance. Protect unstructured time so the child is not only a project.",
+          "taskBreakdown": "They may want a comprehensive system. Make the first week deliberately small. Boredom with repetition is real; vary the example, not the number of new skills.",
+          "functionalBehavior": "They can over-explain the function and still not do the replacement. Write the replacement in one line. Look for escape from boredom or from a demand that feels beneath them, and for attention that only arrives when something goes wrong."
+        },
+        "behind": {
+          "concreteness": "Demonstrate, then do it together, then have them show you. Abstract feeling conversations can be a few minutes, not the whole hour.",
+          "visuals": "Picture sequence, first-then, or their communication system. Keep it uncluttered. Do not add a token board that contradicts what the school or ABA team is already doing — ask first.",
+          "caregiver": "The caregiver carries the plan. The child practices a short piece. Spend more of the hour on adult coaching than on talk therapy with the child.",
+          "taskBreakdown": "Shrink until the child is successful with little help. Praise the piece that happened. Do not add a second skill because the caregiver is worried about five problems.",
+          "functionalBehavior": "Assume the skill is missing before you assume the child is refusing. The replacement must be something they can do on a bad day, not only in your office. If a high-hour ABA team is already involved, align with them. CSC does not take over that program."
+        }
+      }
+    },
+    {
+      "id": "adolescent",
+      "title": "Adolescent",
+      "ages": "About 12 years through high school",
+      "summary": "Abstract thought is uneven, especially under stress, fatigue, or a developmental difference. Privacy, peers, and fairness about independence are the clinical material. The caregiver shifts from doing the task to coaching it.",
+      "intakeQuestions": [
+        "What does the young person want from this, separate from what the adults want?",
+        "Which parts of the medical regimen are they doing, which parts is a caregiver still doing, and where is the fight?",
+        "What are peers, school, driving, dating, or leaving home doing to the plan this year?"
+      ],
+      "domains": {
+        "typical": {
+          "cognition": "Can think about possibilities, identity, and risk, and then decide from the feeling in the room. Fatigue, pain, shame, and friends in the doorway all knock thinking back to concrete and immediate.",
+          "language": "Abstract conversation is available and is a poor measure of what they will do on a Friday night. Ask for the specific situation. Sarcasm and silence are both communication.",
+          "perspective": "Can imagine what others think, sometimes too much (everyone is watching). Can also argue a parent's view and still experience a limit as humiliation. Mixed feelings are nameable with help.",
+          "socialEmotional": "Identity, privacy, and peers carry more weight than adult approval. Illness routines collide with the wish to be ordinary. Risk-taking can include skipping medicine, hiding symptoms, or driving while unwell."
+        },
+        "ahead": {
+          "cognition": "May out-reason the adults and still have a younger emotional recovery. Existential questions about prognosis, fairness, and the future are clinical material, not attitude. Do not match their intellect with more data than they asked for.",
+          "language": "Debate can be the defense. Agree on a time to think out loud and a time to choose one action. Precise language matters. So does a plain sentence when they are flooded.",
+          "perspective": "Can hold multiple perspectives, including the medical team's, and use that skill to hide distress. Ask what they have not told anyone. Do not assume social insight means social ease.",
+          "socialEmotional": "Asynchronous development is the usual story: ideas ahead of sleep, friends, or self-care. Perfectionism and despair sit close together when the body does not match the mind. Boredom with basic coping is real. The basic plan may still be the right plan."
+        },
+        "behind": {
+          "cognition": "Abstract talk about identity and risk will float past them if the skill level is younger. Use concrete rules, rehearsed situations, and a short list. Chronological age still governs privacy, topics, and tone. No baby talk.",
+          "language": "Shorter language, more time, and a communication method that is theirs. Check back by having them explain the plan. A nod is not informed agreement.",
+          "perspective": "Do not use guilt about a parent's fear as the lever. They may not be able to take that perspective, and it damages trust. State the safety rule and the reason in one or two sentences.",
+          "socialEmotional": "Puberty, peer exposure, and wanting independence are still happening. Build a plan that gives a real piece of control. Caregivers often stay in a younger role too long, or drop out too fast. Name which one you are seeing."
+        }
+      },
+      "adaptations": {
+        "typical": {
+          "concreteness": "Even when they can think abstractly, make the plan concrete: who does what, on which days, and what happens if it falls apart. Write it. Distress drops the ability to improvise.",
+          "visuals": "A shared note, a phone reminder they agree to, or a one-page plan. Avoid public charts that expose the illness to peers. Ask where the visual will be seen.",
+          "caregiver": "Move the adult from doing the task to coaching it, on a named piece of the regimen only. Give the young person part of the session alone. Say the split out loud so privacy is real.",
+          "taskBreakdown": "One stuck point, not the whole illness. Rehearse the wording they will actually use with a nurse, a teacher, or a friend.",
+          "functionalBehavior": "Collaborate. Do not do a behavior plan to them. Function still matters when the story is attitude: skipping a treatment may be escape from being seen as sick, not ignorance. Change the conditions and the adult response. Keep dignity in the room."
+        },
+        "ahead": {
+          "concreteness": "Respect the question, answer it accurately, and do not drown them in mechanisms. End with a decision small enough to do this week. Offer reading only if they want it and the medical team is comfortable with the source.",
+          "visuals": "A written plan they edit is often better than a worksheet. Graphs of their own data can help if the data will not be used to shame them. Ask first.",
+          "caregiver": "Help the caregiver survive not winning the argument. A scheduled check-in beats surveillance. Watch for a parent who has become the debate partner and has no warmth left in the room.",
+          "taskBreakdown": "They will propose a complex system. Negotiate down to the step that fails under stress, not the step that fails when they are at their best.",
+          "functionalBehavior": "Intellectualizing is often escape. Name that kindly, then return to what the behavior gets them in the real situation. The replacement has to work when they are tired or ashamed, not only when they are articulate."
+        },
+        "behind": {
+          "concreteness": "Short, literal, repeatable. Practice in the room. Abstract metaphors about the future will not hold the plan.",
+          "visuals": "Use the communication system they already have. A picture or a three-icon sequence can carry a medical routine. Keep it private if peers would see it.",
+          "caregiver": "The caregiver remains central, and the young person still gets a voice on something real. Coach the adult in front of them when you can, so the plan is not a secret about them.",
+          "taskBreakdown": "One step of the regimen. Fade help on that step only. Do not confuse age with readiness to manage a disease alone.",
+          "functionalBehavior": "Look for escape from demands that are past their skill, and for attention that only comes during a crisis. The replacement might be a card, a script, or a caregiver cue, not a insight. If a community ABA program is in place, stay in your lane and align."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "intro": [
+    "Use this when you are deciding whether a referral fits Children's Specialty Care, and which BH23 box to use if it does. BH23 is the behavioral health referral named in the scope of service.",
+    "The age window runs from birth through 18 years, or through completion of high school, whichever comes later. A 17-year-old who already graduated is still inside the window. An 18-year-old who is still in high school is still inside the window. An 18-year-old who has finished high school is not.",
+    "There are two ways in. Path 1 is a medical diagnosis with an evidence base for behavioral treatment. Path 2 is a mental health or behavioral disorder that needs specialty care because of a developmental difference, a chronic medical condition, or age under 6.",
+    "Two exclusions sit on top of both paths: therapies that take many hours a week, such as ABA programs, and mental health needs that traditional community mental health can meet. A learning disability alone is not a developmental difference.",
+    "There is no place to type a name, date of birth, or story. Pick categories only. Refreshing the page clears your answers."
+  ],
+  "agePrompt": "How old is the child?",
+  "ageHelp": "Under 6 also meets Condition B when a mental health or behavioral disorder is present. You do not need a separate developmental diagnosis for that age rule.",
+  "ageOptions": [
+    {
+      "id": "under6",
+      "label": "Birth to 5 years",
+      "detail": "Under age 6."
+    },
+    {
+      "id": "6to17",
+      "label": "6 to 17 years",
+      "detail": "Inside the age window whether or not high school is finished."
+    },
+    {
+      "id": "18plus",
+      "label": "18 years or older",
+      "detail": "The window stays open only if high school is not yet completed."
+    }
+  ],
+  "highSchoolPrompt": "Has high school been completed?",
+  "highSchoolHelp": "The scope ends at the later of the 18th birthday or high-school completion. If you are not sure, the result will be a consult rather than a yes or no.",
+  "highSchoolOptions": [
+    {
+      "id": "no",
+      "label": "No — high school is not completed",
+      "detail": "Still enrolled, or the diploma or equivalent is not finished."
+    },
+    {
+      "id": "yes",
+      "label": "Yes — high school is completed",
+      "detail": "This closes the age window."
+    },
+    {
+      "id": "unsure",
+      "label": "Not sure",
+      "detail": "Confirm enrollment before anyone submits a referral."
+    }
+  ],
+  "abaPrompt": "Is this a request for high-hour therapy, such as an ABA program?",
+  "abaHelp": "The scope excludes therapies that require many hours a week. A functional look at behavior inside an ordinary therapy hour is not the same thing as an ABA program. If the family is asking CSC to provide the many-hour service, this exclusion applies.",
+  "abaOptions": [
+    {
+      "id": "yes",
+      "label": "Yes — they are asking for many hours a week",
+      "detail": "ABA or a similar high-hour program."
+    },
+    {
+      "id": "no",
+      "label": "No — this is a therapy-hour request",
+      "detail": "Individual, family, or parent training at a usual outpatient dose."
+    },
+    {
+      "id": "unsure",
+      "label": "Not sure what intensity they want",
+      "detail": "Ask before you route the referral."
+    }
+  ],
+  "path1Prompt": "Does the child have a medical diagnosis with an evidence-based behavioral treatment?",
+  "path1Help": "The scope says these diagnoses may include the ones below. A diagnosis on this list can qualify on its own. It does not also need a developmental difference. If the diagnosis is something else, do not force it onto this list — mark the last option and CSC can say whether a behavioral treatment evidence base exists.",
+  "path1Options": [
+    { "id": "tics", "label": "Tic disorders" },
+    { "id": "encopresis", "label": "Encopresis" },
+    { "id": "enuresis", "label": "Enuresis" },
+    { "id": "fnd", "label": "Functional neurological disorder" },
+    { "id": "chronic-pain", "label": "Chronic pain disorders" },
+    { "id": "chronic-fatigue", "label": "Chronic fatigue" },
+    {
+      "id": "other",
+      "label": "A different medical diagnosis, and I need CSC to say if it belongs here"
+    },
+    { "id": "none", "label": "None of these" }
+  ],
+  "conditionAPrompt": "Is there a mental health or behavioral disorder?",
+  "conditionAHelp": "Condition A is the mental health or behavioral disorder. The scope's examples are below. Another disorder still counts. This is Path 2. Skip nothing just because Path 1 already matches — both can be true, and the formulation is better when you name them.",
+  "conditionAOptions": [
+    { "id": "disruptive", "label": "Disruptive behavior" },
+    { "id": "adhd", "label": "ADHD" },
+    { "id": "anxiety", "label": "Anxiety" },
+    { "id": "depression", "label": "Depression" },
+    { "id": "trauma", "label": "Trauma" },
+    { "id": "adjustment", "label": "Adjustment to illness" },
+    {
+      "id": "other-mh",
+      "label": "Another mental health or behavioral disorder"
+    },
+    { "id": "none", "label": "No mental health or behavioral disorder" }
+  ],
+  "devPrompt": "Is there a developmental difference?",
+  "devHelp": "Condition B can be met by a developmental difference. Autism, gifted or highly capable, and intellectual disability count. A learning disability alone does not. If you are unsure the difference is more than a learning disability, mark the unsure option rather than stretching a category.",
+  "devOptions": [
+    { "id": "autism", "label": "Autism spectrum" },
+    { "id": "gifted", "label": "Gifted or highly capable" },
+    { "id": "intellectual-disability", "label": "Intellectual disability" },
+    {
+      "id": "other-dev",
+      "label": "Another developmental difference, and it is not a learning disability alone",
+      "detail": "CSC should confirm this one. It does not automatically qualify."
+    },
+    {
+      "id": "learning-disability",
+      "label": "Learning disability",
+      "detail": "Does not count as a developmental difference by itself."
+    },
+    { "id": "none", "label": "None of these" }
+  ],
+  "medicalPrompt": "Is there a chronic medical condition?",
+  "medicalHelp": "Condition B can also be met by a chronic medical condition. The scope's examples are below. Another chronic condition can count. Chronic pain is on this list and on Path 1. If the referral is for behavioral treatment of the pain disorder itself, mark it under Path 1 as well.",
+  "medicalOptions": [
+    { "id": "chronic-pain", "label": "Chronic pain" },
+    { "id": "sci", "label": "Spinal cord injury" },
+    { "id": "seizure", "label": "Seizure disorder" },
+    { "id": "cp", "label": "Cerebral palsy" },
+    { "id": "tbi", "label": "Traumatic brain injury" },
+    {
+      "id": "other-chronic",
+      "label": "Another chronic medical condition",
+      "detail": "The scope's list is examples. Confirm it is chronic and that it shapes the need."
+    },
+    { "id": "none", "label": "No chronic medical condition" }
+  ],
+  "communityPrompt": "Can traditional community mental health meet this need appropriately?",
+  "communityHelp": "The scope excludes mental health issues that traditional community services can address. Answer from the specialty question, not from whether a slot is open nearby. Path 1 diagnoses (tics, encopresis, enuresis, functional neurological disorder, chronic pain, chronic fatigue) usually need the behavioral treatment, not a general counseling referral. If you are unsure, say so.",
+  "communityOptions": [
+    {
+      "id": "no",
+      "label": "No — this needs CSC's specialty focus",
+      "detail": "Developmental difference, chronic medical condition, very young age, or a listed medical diagnosis with a behavioral treatment."
+    },
+    {
+      "id": "yes",
+      "label": "Yes — community mental health is the right level of care",
+      "detail": "The need does not require CSC."
+    },
+    {
+      "id": "unsure",
+      "label": "Not sure",
+      "detail": "This is a consult, if the inclusion paths otherwise fit."
+    }
+  ],
+  "referrerPrompt": "Who is making the referral?",
+  "referrerHelp": "Routing follows the person who submits it, not which path matched. A pediatrician uses the Counseling box even when a specialist also follows the child, unless the specialty clinic provider is the one placing the referral.",
+  "referrerOptions": [
+    {
+      "id": "specialty",
+      "label": "A Specialty Care Clinic provider",
+      "detail": "Oncology, Hematology, Neurology, Pulmonology, Endocrine, PM&R, Developmental Behavioral Pediatrics, GI, or another specialty clinic."
+    },
+    {
+      "id": "other",
+      "label": "Any other provider",
+      "detail": "Pediatrician, OT, speech, PT, audiology, community clinicians, and anyone who is not a specialty clinic provider."
+    }
+  ],
+  "outcomes": {
+    "eligible": {
+      "title": "Likely eligible",
+      "headline": "These answers fit the scope of service."
+    },
+    "not-eligible": {
+      "title": "Not eligible",
+      "headline": "These answers do not fit the scope of service."
+    },
+    "consult": {
+      "title": "Needs a consult",
+      "headline": "Do not submit yet. A CSC consult should settle the open question."
+    }
+  },
+  "routing": {
+    "eligiblePreface": "Referral routing follows who is referring, not which path matched.",
+    "consultPreface": "If CSC accepts the referral, route it this way.",
+    "specialty": {
+      "title": "Specialty Care Clinic provider",
+      "steps": [
+        "Refer through BH23.",
+        "Check the \"MB Specialty referral to CSC\" box."
+      ],
+      "note": "Use this only when the person entering the referral is a Specialty Care Clinic provider."
+    },
+    "other": {
+      "title": "All other providers",
+      "steps": [
+        "Refer through BH23.",
+        "Use the \"Counseling\" box.",
+        "Answer Yes to the supplemental question: \"Is this child 0-5 years or 6-17 with developmental complexity.\""
+      ],
+      "note": "The supplemental question is worded around age and developmental complexity. The scope still tells every non-specialty provider to answer Yes, including when the child qualifies on Path 1 (for example encopresis) without a developmental difference."
+    }
+  },
+  "closings": {
+    "eligible": "This is decision support for the scope of service, not a coverage decision and not a chart note. Confirm anything uncertain with CSC before the referral is submitted.",
+    "consult": "Bring the open question to CSC. Do not guess the box and do not enter patient details into this tool while you wait.",
+    "age": "The age window is closed. CSC is not the next step for this referral.",
+    "aba": "CSC does not provide high-hour ABA or similar many-hour programs. That request belongs with an ABA or other high-hour provider, not with CSC.",
+    "community": "Traditional community mental health is the closer fit. Do not submit a CSC referral from these answers.",
+    "criteria": "The inclusion paths were not met. Do not submit a CSC referral from these answers."
+  }
+}

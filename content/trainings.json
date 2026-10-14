@@ -1,0 +1,97 @@
+{
+  "items": [
+    {
+      "id": "dev-complexity",
+      "title": "Developmental Complexity CEUs",
+      "hours": 12,
+      "hoursLabel": "12 hours",
+      "sessions": 10,
+      "summary": "Ten sessions on how developmental difference changes ordinary therapy. Use this set when the child is under 6, autistic, gifted or highly capable, or has an intellectual disability, and when you are adapting pace, language, or caregiver involvement.",
+      "topics": [
+        "Infant and toddler development",
+        "Preschool and under 6",
+        "School-age development",
+        "Adolescence",
+        "Autism",
+        "Gifted and highly capable",
+        "Intellectual disability",
+        "Adapting interventions"
+      ],
+      "link": "",
+      "linkLabel": "Recording link to be added"
+    },
+    {
+      "id": "aba",
+      "title": "Behavior Modification / ABA",
+      "hours": 4,
+      "hoursLabel": "4 hours",
+      "sessions": null,
+      "summary": "A functional view of behavior for use inside a CSC therapy hour: what happens before, what the behavior does for the child, and a replacement they can actually perform. This is not training to deliver high-hour ABA. Many-hour ABA programs are outside CSC's scope.",
+      "topics": [
+        "Functions of behavior",
+        "Antecedent and consequence",
+        "Replacement skills",
+        "Reinforcement",
+        "Task breakdown",
+        "Caregiver responses"
+      ],
+      "link": "",
+      "linkLabel": "Recording link to be added"
+    },
+    {
+      "id": "feeding",
+      "title": "Feeding Disorders and Cultural Eating / GI",
+      "hours": 8,
+      "hoursLabel": "8 hours",
+      "sessions": null,
+      "summary": "Feeding disorders, including ARFID, the cultural meaning of food, and GI illness as it shows up at the table and at school. Use this before you treat a narrow diet as defiance or import a generic eating-disorder frame.",
+      "topics": [
+        "ARFID and feeding disorders",
+        "Cultural meanings of eating",
+        "GI symptoms and bathroom access",
+        "Caregiver pressure at meals",
+        "Tube feeding and supplements",
+        "When to involve dietitian, GI, or speech"
+      ],
+      "link": "",
+      "linkLabel": "Recording link to be added"
+    },
+    {
+      "id": "chronic-illness",
+      "title": "Chronic Illness",
+      "hours": 10,
+      "hoursLabel": "10 hours",
+      "sessions": null,
+      "summary": "The recorded set for cancer, sickle cell disease, cystic fibrosis, and diabetes. Start here before a first visit when the referral comes from oncology, hematology, pulmonology, or endocrine for one of these illnesses.",
+      "topics": [
+        "Pediatric cancer",
+        "Sickle cell disease",
+        "Cystic fibrosis",
+        "Diabetes",
+        "Treatment burden",
+        "Adherence",
+        "Family impact"
+      ],
+      "link": "",
+      "linkLabel": "Recording link to be added"
+    },
+    {
+      "id": "additional",
+      "title": "Additional topics",
+      "hours": 25,
+      "hoursLabel": "About 25 hours",
+      "sessions": null,
+      "summary": "The longer set covering OCD, encopresis, tics, and the ADHD differential. Use the ADHD differential material before you settle an inattention story — absence seizures and medication effects belong in that differential.",
+      "topics": [
+        "OCD",
+        "Encopresis",
+        "Tic disorders",
+        "ADHD differential",
+        "Absence seizures",
+        "Medication side effects"
+      ],
+      "link": "",
+      "linkLabel": "Recording link to be added"
+    }
+  ]
+}

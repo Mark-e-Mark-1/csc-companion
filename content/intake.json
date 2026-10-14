@@ -1,0 +1,345 @@
+{
+  "universal": [
+    "Who lives with the child, and who actually carries the medical or behavioral tasks on a hard day?",
+    "What does a hard episode look like from the minutes before it starts until the minutes after it ends?",
+    "What has the family already tried, and what do they not want repeated?",
+    "What would better look like in the next month, in something you could see or count?",
+    "How is school or childcare going: attendance, learning, friends, and the adults who help?",
+    "What should shape the work: language, culture, faith, food, family rules, and who is allowed to hear what?",
+    "Who is on the medical team, and how does the family reach them after hours?",
+    "Are there safety concerns the medical team or a supervisor needs today: self-harm, not eating or drinking, abuse, or a symptom the family was told is an emergency?"
+  ],
+  "groups": [
+    {
+      "id": "specialty",
+      "label": "Specialty clinic",
+      "sources": [
+        {
+          "id": "oncology",
+          "label": "Oncology",
+          "detail": "Cancer and blood and marrow transplant programs.",
+          "trainingIds": ["chronic-illness"],
+          "questions": [
+            "Where is the child in treatment: active therapy, maintenance, finished treatment, relapse, or survivorship?",
+            "Are corticosteroid pulses on the calendar, and do mood, sleep, or aggression track those weeks?",
+            "What has the team said about school, infection limits, and activity — in their words, not a general guess?",
+            "What does the child know about the illness, and what words does the family use?"
+          ],
+          "differentials": [
+            "Irritability, aggression, or sleep collapse during a steroid pulse is a medicine effect until shown otherwise. It can also be pain, fear, or a separate mood disorder. Ask oncology before you treat it as a new primary psychiatric illness.",
+            "Inattention or slow schoolwork after brain tumor treatment, cranial radiation, or intrathecal chemotherapy may be a neurocognitive late effect, fatigue, hearing loss, or seizures — not only motivation or ADHD."
+          ]
+        },
+        {
+          "id": "hematology",
+          "label": "Hematology",
+          "detail": "Sickle cell disease, hemophilia, and other blood disorders.",
+          "trainingIds": ["chronic-illness"],
+          "questions": [
+            "What is the home plan for pain or a bleed, and when is the family told to go to the emergency department?",
+            "For sickle cell disease: any history of stroke, silent infarct, or a neuropsychological concern the school does not know?",
+            "Which medicine is hard to take (hydroxyurea, factor, or another), and what gets in the way — taste, access, distrust, side effects, or a schedule that does not fit the day?",
+            "Has the family been disbelieved about pain before? What would make this hospital feel different?"
+          ],
+          "differentials": [
+            "Pain crises, silent stroke, and fatigue can look like behavior, school refusal, or depression. Ask hematology what has already been ruled out.",
+            "A bleed into a joint or muscle can look like refusal to walk or to participate. That is a medical question first."
+          ]
+        },
+        {
+          "id": "neurology",
+          "label": "Neurology",
+          "detail": "Seizures, tics, headache, and other neurologic diagnoses.",
+          "trainingIds": ["additional"],
+          "questions": [
+            "What seizure type has neurology named, when was the last event, and what does the written rescue plan say?",
+            "Could spells of staring or 'not listening' be absence seizures rather than inattention?",
+            "Which medicines changed in the last few months, and did behavior, mood, or appetite change with them?",
+            "If functional neurological symptoms are on the table: what has neurology already said is functional, and what still needs urgent evaluation?"
+          ],
+          "differentials": [
+            "ADHD symptoms versus absence seizures versus medication side effects. Do not settle an attention diagnosis while spells, a new medicine, or sleep loss are unexamined. Ask neurology which medicine is the likely behavioral culprit rather than guessing.",
+            "Tics versus compulsions versus stereotypies versus seizure. The treatment is different. Suppression by punishment is not a treatment."
+          ]
+        },
+        {
+          "id": "pulmonology",
+          "label": "Pulmonology",
+          "detail": "Cystic fibrosis and other chronic lung disease.",
+          "trainingIds": ["chronic-illness"],
+          "questions": [
+            "What does the daily regimen include now: airway clearance, inhaled medicines, enzymes, modulators, oxygen, or feeds?",
+            "Which piece is skipped, who notices, and what does the conflict sound like?",
+            "Have mood, sleep, or anxiety changed since a modulator was started or changed? The CF team needs to hear that. Do not stop a medicine from the therapy room.",
+            "What infection precautions does this clinic use, and how isolated does the child feel from other children with the same illness?"
+          ],
+          "differentials": [
+            "Low mood or irritability after a modulator change may be the medicine, a sleep problem, or depression. Report it. Do not decide alone.",
+            "Cough, breathlessness, chest pain, or coughing blood is a pulmonary emergency pattern, not an anxiety story, until the CF or pulmonary team says otherwise."
+          ]
+        },
+        {
+          "id": "endocrine",
+          "label": "Endocrine",
+          "detail": "Diabetes and other hormone conditions.",
+          "trainingIds": ["chronic-illness"],
+          "questions": [
+            "Who makes dose decisions, and what is the young person actually doing at school versus what the plan says?",
+            "Do irritability, fatigue, or 'not listening' cluster with low glucose, high glucose, or alarm-interrupted nights?",
+            "Is there fear of lows, shame about numbers, or conflict at every check?",
+            "Any insulin omission, skipping meals, or worry about weight? Tell endocrine. Do not hold that for a later session."
+          ],
+          "differentials": [
+            "Irritability, tearfulness, or aggression versus hypoglycemia or hyperglycemia. Ask what the glucose was around the episode before you build a behavior plan.",
+            "Inattention versus glucose variability versus sleep loss from alarms versus a separate ADHD diagnosis versus thyroid or other hormone effects. Endocrine should help sort the medical pieces."
+          ]
+        },
+        {
+          "id": "pmr",
+          "label": "PM&R",
+          "detail": "Physical medicine and rehabilitation, including brain injury, spinal cord injury, and cerebral palsy.",
+          "trainingIds": ["dev-complexity"],
+          "questions": [
+            "What equipment, spasticity treatment, or pain plan is in place, and what is the child afraid of?",
+            "For spinal cord injury: does the family know the warning signs of autonomic dysreflexia, and do they have a written plan?",
+            "What can the child do independently that adults still do out of habit?",
+            "What has PT, OT, or speech asked behavioral health not to contradict?"
+          ],
+          "differentials": [
+            "Refusal to participate versus pain, fatigue, autonomic symptoms, or a task that is physically impossible today.",
+            "New weakness, headache with flushing and sweating, or a change from neurologic baseline is a medical review, not a motivation problem."
+          ]
+        },
+        {
+          "id": "dbp",
+          "label": "Developmental Behavioral Pediatrics",
+          "detail": "Autism, developmental delay, and complex developmental diagnoses.",
+          "trainingIds": ["dev-complexity"],
+          "questions": [
+            "Which developmental diagnoses are established, which are suspected, and which reports should you read before the second visit?",
+            "What therapies are already in place, for how many hours, and is anyone asking CSC to provide ABA?",
+            "How does the child communicate best when they are upset, including any device or pictures?",
+            "What does the caregiver want changed, and does the child have a way to show you that goal?"
+          ],
+          "differentials": [
+            "A request for high-hour ABA is outside CSC's scope even when autism and a behavioral disorder are both present.",
+            "Aggression or self-injury versus pain, constipation, seizures, sleep loss, or a communication system that fails under stress."
+          ]
+        },
+        {
+          "id": "gi",
+          "label": "GI",
+          "detail": "Gastroenterology, including inflammatory bowel disease, constipation, and feeding.",
+          "trainingIds": ["feeding"],
+          "questions": [
+            "What diagnosis is actually on the chart — for example IBD versus IBS, retentive constipation versus something else — and what is the bowel or nutrition plan?",
+            "What is the stool pattern, the soiling pattern, and what has the family been told to do for cleanout?",
+            "What is the range of foods, the fear of eating or of bathrooms, and which foods matter culturally that a plan must not casually remove?",
+            "Are there tube feeds or supplements, and how does the family feel about them?"
+          ],
+          "differentials": [
+            "Soiling versus willful behavior. Overflow encopresis is a medical bowel problem with shame attached. Behavioral work supports the bowel plan. It does not replace it.",
+            "Restricted eating versus ARFID versus inflammatory symptoms versus cultural food practices versus a body-image eating disorder. These are not the same treatment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "therapies",
+      "label": "Pediatric therapies",
+      "sources": [
+        {
+          "id": "ot",
+          "label": "Occupational therapy",
+          "detail": "Fine motor, sensory, daily routines, and participation.",
+          "trainingIds": ["dev-complexity"],
+          "questions": [
+            "What has OT asked behavioral health to work on, and what is OT already treating?",
+            "Which daily routines fail: dressing, meals, toothbrushing, classroom tolerance, or devices on the body?",
+            "What sensory pattern does OT describe, and what happens when that pattern is ignored in a behavior plan?"
+          ],
+          "differentials": [
+            "Noncompliance versus a motor or sensory demand the child cannot meet in the time allowed.",
+            "Device refusal (a vest, a splint, a CGM) versus skin injury or pain that nursing should see."
+          ]
+        },
+        {
+          "id": "speech",
+          "label": "Speech-language pathology",
+          "detail": "Communication, AAC, and feeding or swallowing.",
+          "trainingIds": ["dev-complexity", "feeding"],
+          "questions": [
+            "How does the child communicate, including any AAC, and do you have access to that system in session?",
+            "What does frustration look like when they are not understood?",
+            "Are there swallowing precautions or food textures speech has cleared or forbidden?"
+          ],
+          "differentials": [
+            "Ignoring versus not hearing the language, not having the words, or not having the device available.",
+            "Food refusal versus a swallowing risk. Do not expand the diet past what speech and the medical team have cleared."
+          ]
+        },
+        {
+          "id": "pt",
+          "label": "Physical therapy",
+          "detail": "Mobility, pain with movement, and participation.",
+          "trainingIds": ["dev-complexity"],
+          "questions": [
+            "What activities are medically restricted, and who set that limit?",
+            "Is the barrier pain, fear of movement, fatigue, or a behavior that ends the session?",
+            "What does PT want the family to practice, and what gets in the way at home?"
+          ],
+          "differentials": [
+            "Avoidance versus pain flare versus cardiac or respiratory limits, especially in Duchenne, advanced lung disease, or deconditioning after a long admission.",
+            "Fatigue versus refusal. Ask what the medical team counts as a stop sign."
+          ]
+        },
+        {
+          "id": "audiology",
+          "label": "Audiology",
+          "detail": "Hearing, devices, and access to spoken language.",
+          "trainingIds": ["dev-complexity"],
+          "questions": [
+            "What is the hearing status, what devices are used, and when during the day are they off?",
+            "Does the session need devices on, a remote microphone, or visual supports to be a fair test of anything?",
+            "What has the child missed in school because of hearing, and who thinks that is noncompliance?"
+          ],
+          "differentials": [
+            "Not listening versus not hearing. Check devices before you interpret attention, language, or attitude.",
+            "Language delay versus hearing loss versus both. Audiology should already be in the story if hearing is a question."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "primary",
+      "label": "Primary care",
+      "sources": [
+        {
+          "id": "pediatrician",
+          "label": "Pediatrician",
+          "detail": "Primary care. Routing uses the Counseling box if a CSC referral goes forward.",
+          "trainingIds": [],
+          "questions": [
+            "What has already been tried in the community, and why is specialty care being asked for now?",
+            "Which specialists are involved, if any, and is a specialty clinic the one that should be placing this referral instead?",
+            "Is this a request for ordinary counseling that community mental health can provide?"
+          ],
+          "differentials": [
+            "A primary care referral for anxiety, depression, or behavior without developmental difference, chronic medical complexity, age under 6, or a Path 1 diagnosis often belongs in community mental health. Run the screener before you build a long intake.",
+            "ADHD symptoms versus absence seizures versus medication side effects versus poor sleep. Ask whether neurology or a medicine change is already in motion."
+          ]
+        }
+      ]
+    }
+  ],
+  "concerns": [
+    {
+      "id": "adhd",
+      "label": "ADHD or inattention",
+      "detail": "A behavioral concern. Not a full condition card.",
+      "trainingIds": ["additional", "aba"],
+      "questions": [
+        "Which settings show the problem, and which settings do not?",
+        "What do sleep, hearing, and the school day actually look like?",
+        "Is there a medicine already on board that can affect attention or mood?"
+      ],
+      "differentials": [
+        "ADHD versus absence seizures versus medication side effects. Staring spells, a new antiseizure medicine, or a stimulant started last month can mimic or muddy an attention story. Ask the prescriber and, if spells are present, neurology.",
+        "Inattention versus sleep loss, pain, low mood, learning disability, or a demand that is past the child's language level."
+      ],
+      "modifications": [
+        "One target behavior. A visible cue. A shorter work bout. Do not start a full ADHD protocol on the first visit if a medical mimic is still open."
+      ]
+    },
+    {
+      "id": "anxiety",
+      "label": "Anxiety",
+      "detail": "A behavioral concern. Not a full condition card.",
+      "trainingIds": ["dev-complexity"],
+      "questions": [
+        "What does the child avoid, and what do adults do when the avoidance starts?",
+        "Is the fear attached to medical procedures, separation, school, or something the child will not say yet?",
+        "Any panic symptoms that could be medical: chest pain, fainting, low glucose, breathing difficulty?"
+      ],
+      "differentials": [
+        "Anxiety versus a medical event that feels like panic: hypoglycemia, a respiratory flare, a cardiac symptom, or a seizure aura. If the body symptom is new or outside the known pattern, the medical team hears it first.",
+        "Worry versus OCD rituals versus tics. The family may use one word for all three."
+      ],
+      "modifications": [
+        "Build a small ladder. Do not start at the scariest medical step. Tell the child the session will end on something they can do."
+      ]
+    },
+    {
+      "id": "depression",
+      "label": "Depression or withdrawal",
+      "detail": "A behavioral concern. Not a full condition card.",
+      "trainingIds": ["chronic-illness"],
+      "questions": [
+        "What has changed in sleep, interest, energy, and time with friends?",
+        "Any statements about not wanting to be alive, even jokes? Those go to your safety pathway today.",
+        "Does the low mood track steroids, uncontrolled pain, poor sleep, or a recent medical setback?"
+      ],
+      "differentials": [
+        "Depression versus steroid mood effects versus thyroid or other hormone change versus fatigue from the illness itself versus grief.",
+        "Withdrawal versus hearing loss, language load, or a social world that disappeared during treatment."
+      ],
+      "modifications": [
+        "Smaller activation goals. Include the caregiver. Do not use the illness prognosis as a motivational speech."
+      ]
+    },
+    {
+      "id": "trauma",
+      "label": "Trauma",
+      "detail": "A behavioral concern. Not a full condition card.",
+      "trainingIds": ["dev-complexity"],
+      "questions": [
+        "What does the child or caregiver say happened, in the amount of detail they can manage today?",
+        "Which reminders are medical: restraint for procedures, ICU, needles, or a parent's panic?",
+        "Is there a current safety issue, including abuse, that has to be reported?"
+      ],
+      "differentials": [
+        "Trauma reminders versus a current medical emergency that looks similar: vomiting, fast breathing, dissociation versus seizure or low glucose.",
+        "Hypervigilance versus a reasonable response to a still-dangerous medical situation. Do not desensitize a child to a symptom they have been told is a warning sign."
+      ],
+      "modifications": [
+        "Predictability, choice, and a stop signal. Do not do trauma processing on an intake. Stabilize, and match the dose of talk to developmental level."
+      ]
+    },
+    {
+      "id": "disruptive",
+      "label": "Disruptive behavior",
+      "detail": "A behavioral concern. Not a full condition card.",
+      "trainingIds": ["aba", "dev-complexity"],
+      "questions": [
+        "What is the one behavior that most needs to change, in words a stranger could recognize?",
+        "What do adults do in the next 30 seconds, and what does the child get or get out of?",
+        "Is anyone asking for a many-hour ABA program? If yes, CSC is the wrong service."
+      ],
+      "differentials": [
+        "Disruptive behavior versus pain, constipation, low glucose, a seizure cluster, or a communication breakdown.",
+        "Defiance versus a skill the child does not have at this developmental level, especially in language or flexibility."
+      ],
+      "modifications": [
+        "Change the adult response before you ask the child for a new personality. One replacement skill. Practice it calm."
+      ]
+    },
+    {
+      "id": "adjustment",
+      "label": "Adjustment to illness",
+      "detail": "A behavioral concern. Pair it with the condition card when you have one.",
+      "trainingIds": ["chronic-illness"],
+      "questions": [
+        "What changed in the last few months in the illness, the family, or the school?",
+        "What has the child stopped doing that they used to do?",
+        "What does the family think a therapist can change, and what has to stay in the medical team's hands?"
+      ],
+      "differentials": [
+        "Adjustment versus a medicine effect, a worsening of the disease, or a developmental shift such as adolescence taking over self-care.",
+        "Grief versus depression. Both can be present. Neither is fixed by reassurance that other children have it worse."
+      ],
+      "modifications": [
+        "Ask what words the family uses for the illness and use those. Do not introduce a battle metaphor they did not choose."
+      ]
+    }
+  ]
+}
