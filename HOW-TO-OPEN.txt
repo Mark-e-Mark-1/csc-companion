@@ -1,0 +1,9 @@
+CSC Clinical Companion — offline copy
+
+Double-click index.html. It opens in your browser. You do not need a server
+and you do not need an internet connection for the app itself.
+
+Do not enter patient information. Nothing you select is saved.
+
+This zip is a frozen copy. To change the clinical text, edit the content
+folder in the project and run npm run zip:offline. The README explains the files.
