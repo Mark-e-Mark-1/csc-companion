@@ -15,7 +15,7 @@ npm install
 npm run dev
 ```
 
-Open http://127.0.0.1:43123 . The app uses hash addresses (`/#/screener`), so it works from a simple file host.
+Open http://127.0.0.1:43123/csc-companion/ . The app uses hash addresses (`/csc-companion/#/screener`), so a refresh keeps the page you were on. The offline zip uses a different base (`./`) so `index.html` still opens by double-click.
 
 ```bash
 npm test
@@ -23,7 +23,7 @@ npm run build
 npm run preview
 ```
 
-`npm run build` writes a static site into `dist/`. Upload that folder to any static host. The installed app (Add to Home Screen) can open again offline after the first visit. That is the PWA. It still must not be used to store patient information.
+`npm run build` writes a static site into `dist/`. The Vite base path is `/csc-companion/`, which matches GitHub Pages at `https://mark-e-mark-1.github.io/csc-companion/`. Pushing `main` runs `.github/workflows/pages.yml`, which builds `dist/` and deploys it with GitHub Actions. Pages must be set to “GitHub Actions” as the source. The installed app (Add to Home Screen) can open again offline after the first visit. That is the PWA. It still must not be used to store patient information.
 
 ## Open it with no server
 

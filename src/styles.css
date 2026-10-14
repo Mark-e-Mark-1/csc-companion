@@ -246,6 +246,16 @@ a:hover { text-decoration-thickness: 2px; }
 .module-title, .module-text { display: block; }
 .module-title { font-family: var(--serif); font-size: 1.25rem; font-weight: 600; }
 .module-text { color: var(--ink-soft); margin-top: 0.2rem; }
+.reviewer-note {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--teal);
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  margin: 0 0 1.25rem;
+}
+.reviewer-note h2 { margin: 0 0 0.35rem; font-size: 1.2rem; }
+.reviewer-note p { margin: 0; }
 .scope-card, .callout, .routing, .adapt-panel {
   background: var(--card);
   border: 1px solid var(--line);

@@ -137,6 +137,8 @@ export type SiteContent = {
   banner: string
   bannerDetail: string
   footer: string
+  reviewerTitle: string
+  reviewerNote: string
   modules: { to: string; index: string; title: string; text: string }[]
 }
 

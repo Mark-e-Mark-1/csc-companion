@@ -18,6 +18,11 @@ export function Home() {
         </p>
       </header>
 
+      <section className="reviewer-note" aria-labelledby="reviewer-heading">
+        <h2 id="reviewer-heading">{site.reviewerTitle}</h2>
+        <p>{site.reviewerNote}</p>
+      </section>
+
       <ol className="module-list">
         {site.modules.map((module) => (
           <li key={module.to}>

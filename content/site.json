@@ -4,6 +4,8 @@
   "banner": "Reference tool only. Do not enter any patient information.",
   "bannerDetail": "Not a medical record and not a referral submission. Nothing you select is saved or sent. Refreshing the page clears the screener and the intake checklist.",
   "footer": "Draft clinical content, pending medical team review. For Master's-level therapists and interns in Children's Specialty Care.",
+  "reviewerTitle": "Reviewer feedback",
+  "reviewerNote": "This preview is for clinical review. Send comments to Mark.",
   "modules": [
     {
       "to": "/screener",
